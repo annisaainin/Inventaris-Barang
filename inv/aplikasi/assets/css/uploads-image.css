@@ -1,0 +1,76 @@
+.zonne{
+        margin:5px auto;
+        height: 200px;
+        padding:5px;
+        border: 1px solid #9e9e9e;
+        z-index: 12;
+        overflow-y: scroll;
+      }
+      .upload input.btn-file{
+        position: absolute;
+        width: 100px;
+        top: -3px;
+        left: -3px;
+        cursor: pointer;
+        opacity: 0;
+        background-color: #fff;
+        height: 100px;
+      }
+      .m-img {
+      float: left;
+      display: flex;
+      cursor: pointer;
+      margin:10px;
+      }
+      div.upload{
+        display: flex;
+        cursor: pointer;
+        width: 100px;
+        height: 100px;
+        position: relative;
+        overflow: hidden;
+        margin: 20px;
+        display: inline-block;
+        padding: 18px 33px;
+        border: 3px solid #909090;
+        font-size: 50px;
+        border-style: dashed;
+        color: #909090;
+        border-radius: 5px;
+      }
+        div.upload > span{
+          margin:0;
+        }
+      .product-image{
+        width: 100px;
+        height: 100px;
+        border-radius: 10px;
+        margin: 10px;
+        margin-right: 17px;
+        box-shadow: 0px 0px 10px 2px #707070;
+      }
+      .remove {
+      color: rgb(255, 0, 0);
+      background: white;
+      cursor: pointer;
+      height: 25px;
+      border-radius: 30px;
+      margin-top: 15px;
+      margin-left: -50px;
+      }
+      .fa-remove{
+        color: rgb(255, 0, 0);
+        font-size: 15px;
+        padding: 5px 7px;
+
+      }
+      #output-image{
+        text-align: center;
+        width:150px;
+        height:150px;
+        border: 1px solid grey;
+        border-radius: 160px;
+      }
+      input[type="file"]{
+        display:none;
+      }
